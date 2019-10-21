@@ -1,0 +1,752 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-03-12 00:12+0400\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:35
+msgid "Неправильная пара логин/пароль"
+msgstr ""
+
+#: Controller/AppController.php:36
+msgid "Необходимо авторизоваться"
+msgstr ""
+
+#: Controller/AppController.php:67
+#: View/Elements/footer.ctp:4
+msgid "анонимная социальная сеть"
+msgstr ""
+
+#: Controller/AppController.php:99
+msgid "Страница не найдена"
+msgstr ""
+
+#: Controller/LikeController.php:10
+#: Controller/ProfileController.php:136
+msgid "Авторизуйтесь для начала"
+msgstr ""
+
+#: Controller/LikeController.php:12
+msgid "Ошибка сохранения"
+msgstr ""
+
+#: Controller/ProfileController.php:85
+msgid "Данные сохранены"
+msgstr ""
+
+#: Controller/ProfileController.php:124
+msgid "Мнение высказано"
+msgstr ""
+
+#: Controller/ProfileController.php:134;220;237
+msgid "Ошибка"
+msgstr ""
+
+#: Controller/ProfileController.php:278
+msgid "Альбом создан"
+msgstr ""
+
+#: Controller/ProfileController.php:301;306;311;325
+msgid "Ошибка загрузки файла"
+msgstr ""
+
+#: Controller/UserController.php:31
+msgid "Неверное имя пользователя или пароль"
+msgstr ""
+
+#: Controller/UserController.php:217;224;236;249;259
+msgid "Сохранено"
+msgstr ""
+
+#: Controller/UserController.php:226
+msgid "Неизвестная ошибка"
+msgstr ""
+
+#: Controller/UserController.php:238
+msgid "Введите новый пароль и его повторение"
+msgstr ""
+
+#: Controller/UserController.php:241
+msgid "Неверный старый пароль"
+msgstr ""
+
+#: Controller/UserController.php:273
+msgid "Аватар удален"
+msgstr ""
+
+#: View/Elements/admin_list.ctp:3
+#: View/Profile/galleries.ctp:51
+#: View/Profile/news.ctp:17
+#: View/Profile/notes.ctp:13
+msgid "удалить"
+msgstr ""
+
+#: View/Elements/comments.ctp:1
+msgid "Коментарии"
+msgstr ""
+
+#: View/Elements/comments.ctp:15
+msgid "пишет"
+msgstr ""
+
+#: View/Elements/comments.ctp:24
+msgid "Оставлять комментарии могут только зарегистрированные пользователи."
+msgstr ""
+
+#: View/Elements/comments.ctp:24
+msgid "Регистрация"
+msgstr ""
+
+#: View/Elements/comments.ctp:29
+msgid "Ваш комментарий"
+msgstr ""
+
+#: View/Elements/comments.ctp:34
+#: View/Layouts/profile.ctp:76
+#: View/Profile/note.ctp:16
+msgid "Разместить"
+msgstr ""
+
+#: View/Elements/footer.ctp:7
+#: View/Index/blog.ctp:2
+msgid "Блог"
+msgstr ""
+
+#: View/Elements/footer.ctp:13
+msgid "Разработка сайта"
+msgstr ""
+
+#: View/Elements/header.ctp:51
+msgid "Запомнить"
+msgstr ""
+
+#: View/Elements/header.ctp:53
+msgid "Забыли пароль?"
+msgstr ""
+
+#: View/Elements/header.ctp:68
+#: View/Elements/user_item.ctp:53
+msgid "Моя страница"
+msgstr ""
+
+#: View/Elements/header.ctp:69
+msgid "Профиль"
+msgstr ""
+
+#: View/Elements/header.ctp:70
+msgid "Новости"
+msgstr ""
+
+#: View/Elements/header.ctp:78
+msgid "Выйти"
+msgstr ""
+
+#: View/Elements/opinion.ctp:34
+#: View/Profile/page.ctp:94
+msgid "Прежде чем просматривать и оставлять отзывы ответьте на вопрос:"
+msgstr ""
+
+#: View/Elements/opinion.ctp:35
+#: View/Profile/page.ctp:95
+msgid "Вы знакомы"
+msgstr ""
+
+#: View/Elements/opinion.ctp:36
+#: View/Profile/page.ctp:96
+msgid "Вы не знакомы"
+msgstr ""
+
+#: View/Elements/opinion.ctp:41
+msgid "Автор"
+msgstr ""
+
+#: View/Elements/opinion.ctp:43
+msgid "отправить запрос"
+msgstr ""
+
+#: View/Elements/opinion.ctp:46
+msgid "запрос отправлен"
+msgstr ""
+
+#: View/Elements/opinion.ctp:48
+msgid "повторить"
+msgstr ""
+
+#: View/Elements/opinion.ctp:53
+msgid "знает вас"
+msgstr ""
+
+#: View/Elements/opinion.ctp:55
+msgid "не знает вас"
+msgstr ""
+
+#: View/Elements/opinion.ctp:69
+msgid "Комментарии"
+msgstr ""
+
+#: View/Elements/requests.ctp:3
+msgid "Открыться"
+msgstr ""
+
+#: View/Elements/requests.ctp:9
+msgid "хочет узнать, что вы написали мнение"
+msgstr ""
+
+#: View/Elements/user_item.ctp:15
+msgid "Добавлена"
+msgstr ""
+
+#: View/Elements/user_item.ctp:15
+msgid "Добавлен"
+msgstr ""
+
+#: View/Elements/user_item.ctp:17
+msgid "анонимно"
+msgstr ""
+
+#: View/Elements/user_item.ctp:24
+msgid "друзья"
+msgstr ""
+
+#: View/Elements/user_item.ctp:26
+msgid "недруги"
+msgstr ""
+
+#: View/Elements/user_item.ctp:36
+msgid "Написать мнение"
+msgstr ""
+
+#: View/Elements/user_item.ctp:38
+msgid "Удалить из анонимного списка"
+msgstr ""
+
+#: View/Elements/user_item.ctp:40
+msgid "Добавить анонимно"
+msgstr ""
+
+#: View/Elements/user_item.ctp:43
+msgid "Добавить в доброжелатели"
+msgstr ""
+
+#: View/Elements/user_item.ctp:44
+msgid "Добавить в недруги"
+msgstr ""
+
+#: View/Elements/user_item.ctp:47
+msgid "Удалить из доброжелателей"
+msgstr ""
+
+#: View/Elements/user_item.ctp:49
+msgid "Удалить из недругов"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:90
+msgid "Января"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:91
+msgid "Февраля"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:92
+msgid "Марта"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:93
+msgid "Апреля"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:94
+msgid "Мая"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:95
+msgid "Июня"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:96
+msgid "Июля"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:97
+msgid "Августа"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:98
+msgid "Сентября"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:99
+msgid "Октября"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:100
+msgid "Ноября"
+msgstr ""
+
+#: View/Helper/DisplayHelper.php:101
+msgid "Декабря"
+msgstr ""
+
+#: View/Index/blog.ctp:4
+msgid "Обзор всех нововведений"
+msgstr ""
+
+#: View/Index/blog.ctp:13
+msgid "Коментариев"
+msgstr ""
+
+#: View/Index/blog_entry.ctp:2
+msgid "Запись"
+msgstr ""
+
+#: View/Index/blog_entry.ctp:6
+msgid "Назад в блог"
+msgstr ""
+
+#: View/Index/index.ctp:11
+msgid "Впервые на"
+msgstr ""
+
+#: View/Index/index.ctp:12
+msgid "Регистрируйтесь"
+msgstr ""
+
+#: View/Index/index.ctp:13
+#: View/User/registration.ctp:11
+msgid "Ваше имя"
+msgstr ""
+
+#: View/Index/index.ctp:14
+#: View/User/registration.ctp:17
+msgid "Ваша фамилия"
+msgstr ""
+
+#: View/Index/index.ctp:15
+#: View/User/login.ctp:8
+#: View/User/registration.ctp:23
+msgid "Ваш e-mail"
+msgstr ""
+
+#: View/Index/index.ctp:16
+#: View/User/login.ctp:14
+#: View/User/registration.ctp:29
+msgid "Ваш пароль"
+msgstr ""
+
+#: View/Index/index.ctp:21
+msgid "Войти через"
+msgstr ""
+
+#: View/Layouts/profile.ctp:16
+#: View/User/profile.ctp:19
+msgid "Дата рождения"
+msgstr ""
+
+#: View/Layouts/profile.ctp:20
+msgid "Страна и город"
+msgstr ""
+
+#: View/Layouts/profile.ctp:24
+#: View/User/profile.ctp:29
+msgid "Школа"
+msgstr ""
+
+#: View/Layouts/profile.ctp:28
+#: View/User/profile.ctp:31
+msgid "ВУЗ"
+msgstr ""
+
+#: View/Layouts/profile.ctp:32
+msgid "Дополнительная информация"
+msgstr ""
+
+#: View/Layouts/profile.ctp:43
+msgid "Настроить страницу"
+msgstr ""
+
+#: View/Layouts/profile.ctp:54
+#: View/Profile/galleries.ctp:3
+msgid "Альбомы пользователя"
+msgstr ""
+
+#: View/Layouts/profile.ctp:70
+msgid "Записи пользователя"
+msgstr ""
+
+#: View/Profile/friends.ctp:3
+#: View/Profile/news.ctp:2
+#: View/Profile/page.ctp:42
+msgid "Список анонимных друзей"
+msgstr ""
+
+#: View/Profile/friends.ctp:6
+msgid "Все друзья"
+msgstr ""
+
+#: View/Profile/friends.ctp:6
+msgid "Друзья онлайн"
+msgstr ""
+
+#: View/Profile/friends.ctp:15
+msgid "Пусто"
+msgstr ""
+
+#: View/Profile/friends.ctp:23
+msgid "Показать весь список"
+msgstr ""
+
+#: View/Profile/galleries.ctp:7
+msgid "Создать новый альбом"
+msgstr ""
+
+#: View/Profile/galleries.ctp:13
+msgid "Новая галерея"
+msgstr ""
+
+#: View/Profile/galleries.ctp:21
+msgid "Создать"
+msgstr ""
+
+#: View/Profile/galleries.ctp:34
+msgid "Альбомов пока нет"
+msgstr ""
+
+#: View/Profile/galleries.ctp:43
+#: View/Profile/gallery.ctp:22
+msgid "Нет загруженных изображений"
+msgstr ""
+
+#: View/Profile/galleries.ctp:48
+msgid "Изображений"
+msgstr ""
+
+#: View/Profile/galleries.ctp:49
+msgid "Обновленна"
+msgstr ""
+
+#: View/Profile/gallery.ctp:4
+msgid "Альбом"
+msgstr ""
+
+#: View/Profile/news.ctp:5
+#: View/Profile/page.ctp:31
+msgid "Мнения"
+msgstr ""
+
+#: View/Profile/news.ctp:5
+msgid "Записи"
+msgstr ""
+
+#: View/Profile/news.ctp:17
+msgid "Редактировать"
+msgstr ""
+
+#: View/Profile/note.ctp:3
+msgid "Ваша новая запись"
+msgstr ""
+
+#: View/Profile/note.ctp:6
+#: View/Profile/notes.ctp:6
+msgid "Добавить новую запись"
+msgstr ""
+
+#: View/Profile/note.ctp:6
+#: View/Profile/notes.ctp:6
+msgid "Все записи"
+msgstr ""
+
+#: View/Profile/page.ctp:4
+msgid "Добавить в"
+msgstr ""
+
+#: View/Profile/page.ctp:17
+msgid "Пользователь в вашем анонимном списке"
+msgstr ""
+
+#: View/Profile/page.ctp:17
+msgid "вы можетe"
+msgstr ""
+
+#: View/Profile/page.ctp:17
+msgid "удалить его"
+msgstr ""
+
+#: View/Profile/page.ctp:17
+msgid "из списка"
+msgstr ""
+
+#: View/Profile/page.ctp:23
+msgid "Друзей"
+msgstr ""
+
+#: View/Profile/page.ctp:24
+msgid "Недругов"
+msgstr ""
+
+#: View/Profile/page.ctp:25
+msgid "Анонимно в друзьях"
+msgstr ""
+
+#: View/Profile/page.ctp:33
+msgid "Положительные"
+msgstr ""
+
+#: View/Profile/page.ctp:34
+msgid "Отрицательные"
+msgstr ""
+
+#: View/Profile/page.ctp:44
+msgid "Список пока пуст"
+msgstr ""
+
+#: View/Profile/page.ctp:58
+msgid "Новое мнение"
+msgstr ""
+
+#: View/Profile/page.ctp:64
+msgid "Отрицательное"
+msgstr ""
+
+#: View/Profile/page.ctp:69
+msgid "Положительное"
+msgstr ""
+
+#: View/Profile/page.ctp:79
+msgid "Стена мнений"
+msgstr ""
+
+#: View/Profile/page.ctp:83
+msgid "Пока пусто"
+msgstr ""
+
+#: View/Search/index.ctp:3
+msgid "На сайте зарегистрировано"
+msgstr ""
+
+#: View/Search/index.ctp:7
+msgid "Поиск пользователей"
+msgstr ""
+
+#: View/Search/index.ctp:11
+msgid "Введите имя"
+msgstr ""
+
+#: View/Search/index.ctp:13
+msgid "Найти"
+msgstr ""
+
+#: View/Search/index.ctp:20
+msgid "Найдено"
+msgstr ""
+
+#: View/Search/index.ctp:20
+msgid "человек"
+msgstr ""
+
+#: View/Search/index.ctp:33
+msgid "Ничего не найдено"
+msgstr ""
+
+#: View/User/auth_redirect.ctp:3
+msgid "Ошибка авторизации"
+msgstr ""
+
+#: View/User/auth_redirect.ctp:4
+msgid "Произошла ошибка авторизации, возможно вы не разрешили доступ сайту к вашему аккаунту."
+msgstr ""
+
+#: View/User/login.ctp:2
+msgid "Авторизация на сайте"
+msgstr ""
+
+#: View/User/login.ctp:21
+msgid "Забыли пароль"
+msgstr ""
+
+#: View/User/login.ctp:27
+msgid "Войти"
+msgstr ""
+
+#: View/User/profile.ctp:2
+msgid "Настройки профиля"
+msgstr ""
+
+#: View/User/profile.ctp:10
+msgid "Общее"
+msgstr ""
+
+#: View/User/profile.ctp:13
+msgid "Имя"
+msgstr ""
+
+#: View/User/profile.ctp:14
+msgid "Фамилия"
+msgstr ""
+
+#: View/User/profile.ctp:15
+msgid "Пол"
+msgstr ""
+
+#: View/User/profile.ctp:17
+msgid "Мужской"
+msgstr ""
+
+#: View/User/profile.ctp:17
+msgid "Женский"
+msgstr ""
+
+#: View/User/profile.ctp:34
+msgid "Страна"
+msgstr ""
+
+#: View/User/profile.ctp:37
+msgid "Город"
+msgstr ""
+
+#: View/User/profile.ctp:40
+msgid "Дополнительно"
+msgstr ""
+
+#: View/User/profile.ctp:50
+msgid "Сохранить"
+msgstr ""
+
+#: View/User/profile.ctp:53
+msgid "Аватар"
+msgstr ""
+
+#: View/User/profile.ctp:62
+msgid "Загрузить фото"
+msgstr ""
+
+#: View/User/profile.ctp:67
+msgid "Удалить фото"
+msgstr ""
+
+#: View/User/profile.ctp:72
+msgid "Загрузить"
+msgstr ""
+
+#: View/User/profile.ctp:79
+msgid "Настройки безопасности"
+msgstr ""
+
+#: View/User/profile.ctp:82
+msgid "Изменть пароль"
+msgstr ""
+
+#: View/User/profile.ctp:84
+msgid "Старый пароль"
+msgstr ""
+
+#: View/User/profile.ctp:85
+msgid "Новый пароль"
+msgstr ""
+
+#: View/User/profile.ctp:86
+msgid "Повторите"
+msgstr ""
+
+#: View/User/profile.ctp:90
+msgid "Изменить адрес электронной почты"
+msgstr ""
+
+#: View/User/profile.ctp:92
+msgid "Текущий адрес"
+msgstr ""
+
+#: View/User/profile.ctp:94
+msgid "не указан"
+msgstr ""
+
+#: View/User/profile.ctp:99;119
+msgid "Новый адрес"
+msgstr ""
+
+#: View/User/profile.ctp:104;123
+msgid "Изменить"
+msgstr ""
+
+#: View/User/profile.ctp:112
+msgid "Разное"
+msgstr ""
+
+#: View/User/profile.ctp:114
+msgid "Адрес страницы"
+msgstr ""
+
+#: View/User/profile.ctp:116
+msgid "Текущий"
+msgstr ""
+
+#: View/User/registration.ctp:2
+msgid "Регистрация на сайте"
+msgstr ""
+
+#: View/User/registration.ctp:5
+msgid "Вы успешно зарегистрированы на сайте"
+msgstr ""
+
+#: Model/Comment.php:validation for field content
+msgid "Заполните поле комментария!"
+msgstr ""
+
+#: Model/Gallery.php:validation for field title
+msgid "Укажите название галереи"
+msgstr ""
+
+#: Model/Note.php:validation for field content
+msgid "Заполните текст записи"
+msgstr ""
+
+#: Model/Opinion.php:validation for field message
+msgid "Укажите текст отзыва"
+msgstr ""
+
+#: Model/Opinion.php:validation for field type
+msgid "Укажите тип отзыва"
+msgstr ""
+
+#: Model/Opinion.php:validation for field recipient_id
+msgid "Несуществующий пользователь или попытка написать самому себе"
+msgstr ""
+
+#: Model/User.php:validation for field login
+msgid "Имя пользователя содержит недопустимые символы"
+msgstr ""
+
+#: Model/User.php:validation for field login
+msgid "Указанный логин уже занят"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "Поле Пароль обязательно"
+msgstr ""
+
+#: Model/User.php:validation for field mail
+msgid "Заполните поле e-mail"
+msgstr ""
+
+#: Model/User.php:validation for field mail
+msgid "Указанные e-mail уже зарегистрирован"
+msgstr ""
+
+#: Model/User.php:validation for field mail
+msgid "Вы указали неверный e-mail"
+msgstr ""
+
+#: Model/User.php:validation for field avatar
+msgid "Неверный формат изображения"
+msgstr ""
+

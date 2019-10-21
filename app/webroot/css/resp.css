@@ -1,0 +1,1864 @@
+@media only screen and (min-width: 1190px) {
+
+    header.with-header-banner {
+        position: relative;
+    }
+
+    header.with-header-banner.header-fixed {
+        height: 55px;
+    }
+
+    header.with-header-banner.header-fixed .header-pic-block {
+        display: none;
+    }
+
+    header.with-header-banner.header-fixed .header-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background: #fff;
+    }
+    header.with-header-banner.header-fixed .header-nav .logo {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: 0s;
+        -moz-transition: 0s;
+        -ms-transition: 0s;
+        -o-transition: 0s;
+        transition: 0s;
+    }
+    header.with-header-banner.header-fixed .header-nav .phone {
+        border-right: none;
+    }
+    header.with-header-banner.header-fixed .header-nav .login {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #middle.with-header-banner.header-fixed {
+        margin-top: 180px;
+    }
+
+}
+
+@media only screen and (max-width: 1190px) {
+    .with-header-banner .header-pic-block {
+        height: 159px;
+    }
+
+    #middle.with-header-banner {
+        margin-top: 214px;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    .content-with-aside aside {
+        padding-left: 30px;
+    }
+
+    .page-article-1 .left {
+        width: 100%;
+    }
+
+    .page-article-1 .right {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .main {
+        background-size: initial;
+    }
+
+    .main .text {
+        padding-top: 35px;
+    }
+
+    .reviews .text {
+        padding-left: 30px;
+    }
+
+    .about-our-rating .list-of-items .item {
+        padding: 0 20px;
+    }
+
+    .request-verification {
+        padding: 50px 15px;
+    }
+
+    .content-with-aside .content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .politics {
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .content-with-aside aside {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .page-clinic-1 .right .clinic-slider {
+        margin-bottom: 0;
+    }
+
+    .page-clinic-4 {
+        padding-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .with-header-banner .header-pic-block {
+        height: 100px;
+    }
+
+    #middle.with-header-banner {
+        margin-top: 155px;
+    }
+
+    .main .slider {
+        display: none;
+    }
+
+    .main .text {
+        width: calc(100% - 277px);
+    }
+
+    .main .text h1 {
+        max-width: initial;
+    }
+
+    .main .text p {
+        max-width: initial;
+    }
+
+    .main .img {
+        width: 277px;
+    }
+
+    .search-doctor .list-of-doctors .item {
+        width: calc(33.33% - 8px);
+        margin-bottom: 12px;
+    }
+
+    .reviews-slider .slick-prev {
+        top: 20px;
+    }
+
+    .reviews-slider .slick-next {
+        top: 20px;
+    }
+
+    .reviews-slider .slick-dots {
+        top: 32px;
+    }
+
+    .reviews-slider .slick-slide .slider-text {
+        bottom: 10px;
+    }
+
+    .reviews .text .button {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+    .with-header-banner .header-pic-block {
+        height: 64px;
+    }
+
+    #middle.with-header-banner {
+        margin-top: 120px;
+    }
+
+    header .inner {
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    header .logo {
+        width: initial;
+        order: 2;
+        margin-top: -6px;
+    }
+
+    header nav {
+        width: initial;
+        order: 1;
+        margin-top: -2px;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    header nav .dropdown-menu {
+        display: inline-block;
+        z-index: 100;
+    }
+
+    header nav > ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #2F53E1;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        padding: 95px 40px 40px;
+        z-index: 99;
+    }
+
+    header nav > ul li {
+        padding-left: 0;
+        margin: 0 0 20px 0;
+        height: initial;
+    }
+
+    header nav > ul li > a,
+    header nav > ul li > span {
+        color: #fff;
+    }
+
+    header nav > ul > li > a:hover,
+    header nav > ul > li > span:hover {
+        color: #fff;
+    }
+
+    header nav > ul > li > span .icon {
+        display: none;
+    }
+
+    header nav > ul li.services-list {
+        margin-bottom: 35px;
+    }
+
+    header nav > ul li.services-list a {
+        color: #fff;
+    }
+
+    header nav > ul > li.services-list span {
+        position: relative;
+    }
+
+    header nav > ul > li.services-list span:before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 0;
+        background: url(../images/services-arrow.svg) no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        right: -24px;
+        transform: translateY(-50%);
+    }
+
+    header nav ul li.services-list ul {
+        display: none;
+        margin-top: 28px;
+        position: initial;
+        top: initial;
+        left: initial;
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: initial;
+        -o-transition: initial;
+        transition: initial;
+        padding: 0;
+        background: transparent;
+    }
+
+    header nav ul li.services-list ul li {
+        margin-bottom: 15px;
+    }
+
+    header nav ul li.services-list ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    header nav ul li.services-list ul li a {
+        color: #FFFFFF;
+        opacity: 0.7;
+        font-size: 1.15em;
+        text-transform: initial;
+        letter-spacing: initial;
+    }
+
+    header nav ul li.services-list ul li a:hover {
+        opacity: 1;
+    }
+
+    header nav > ul > li.mobile-list {
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+    header .help {
+        display: none;
+        width: initial;
+    }
+
+    header .login {
+        width: initial;
+        order: 3;
+        position: relative;
+        z-index: 100;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    header .login svg {
+        display: inline-block;
+        margin-top: -6px;
+    }
+
+    header .login ul {
+        display: none;
+    }
+
+    header .login.opened ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .add-review {
+        display: none;
+    }
+
+    header .phone {
+        display: none;
+    }
+
+    #middle {
+        margin-top: 60px;
+    }
+
+    #middle.with-header-banner {
+        margin-top: 106px;
+    }
+
+    .main .text p {
+        padding-right: 30px;
+    }
+
+    .search-doctor .list-of-doctors .item {
+        width: calc(50% - 8px);
+    }
+
+    .about-our-rating .block-with-title {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .about-our-rating .block-with-title h4 {
+        max-width: initial;
+        font-size: 1.54em;
+    }
+
+    .about-our-rating .list-of-items {
+        width: 100%;
+    }
+
+    .news {
+        padding: 70px 0;
+    }
+
+    .reviews {
+        padding: 0 0 35px;
+    }
+
+    .reviews:before {
+        display: none;
+    }
+
+    .reviews .slider {
+        width: calc(100% + 30px);
+        margin: 0 0 30px -15px;
+    }
+
+    .reviews-slider .slick-slide .slider-text {
+        left: 15px;
+    }
+
+    .reviews-slider .slick-prev {
+        top: 40px;
+        left: 5px;
+    }
+
+    .reviews-slider .slick-next {
+        top: 40px;
+        left: 40px;
+    }
+
+    .reviews-slider .slick-dots {
+        top: 52px;
+        left: 100px;
+    }
+
+    .reviews .text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .footer-top {
+        padding-bottom: 5px;
+    }
+
+    .footer-top .lists-1 {
+        width: 33.33%;
+    }
+
+    .footer-top .lists-1 ul {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .footer-top .lists-1 ul:last-child {
+        display: none;
+    }
+
+    .footer-top .list-2 {
+        width: 33.33%;
+    }
+
+    .footer-top .mailing {
+        width: 33.33%;
+    }
+
+    .request-verification {
+        padding: 50px 0 0;
+    }
+
+    .request-verification .bottom .selects {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+
+    .request-verification .bottom .budget {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .request-verification .bottom .budget > p {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .request-verification .bottom .checkbox {
+        width: 100%;
+    }
+
+    .page-of-search .content .item .left {
+        width: 100%;
+        position: relative;
+        border-right: none;
+    }
+
+    .page-of-search .content .item .left .price {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .page-of-search .content .item .right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .content-with-aside aside .aside-button-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .content-with-aside aside > div {
+        display: none;
+    }
+
+    .content-with-aside aside .aside-slider {
+        display: none;
+    }
+
+    .blog-2 .list-of-articles .item.big-item {
+        width: 100%;
+        margin-bottom: 20px;
+        max-height: 400px;
+        display: block;
+    }
+
+    .blog-2 .list-of-articles .item.big-item img {
+        width: 100%;
+        height: initial;
+    }
+
+    .blog-2 .list-of-articles .item {
+        display: none;
+    }
+
+    .blog-3 .left {
+        width: 100%;
+    }
+
+    .blog-3 .right {
+        width: 100%;
+        padding-left: 0;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        -ms-flex-direction: row;
+        -o-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .blog-3 .right .item {
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    .blog-3 .right .item + .item {
+        border-top: none;
+        border-left: 1px solid #D0D8Fa;
+    }
+
+    .blog-4 .left {
+        width: calc(100% + 30px);
+        margin-bottom: 25px;
+        margin-left: -15px;
+    }
+
+    .blog-4 .right {
+        width: 50%;
+    }
+
+    .blog-5 {
+        padding: 80px 0;
+    }
+
+    .blog-5 .list-of-items .item {
+        width: calc(50% - 10px);
+    }
+
+    .doctor-page-1 .left {
+        width: 100%;
+    }
+
+    .doctor-page-1 .right {
+        width: 100%;
+        padding: 20px 0px 16px 0px;
+    }
+
+    .doctor-page-1 .right:before {
+        left: -15px;
+    }
+
+    .doctor-page-1 .right .logo {
+        top: 0px;
+        left: 0px;
+    }
+
+    .doctor-page-1 .right .place-of-work-slider {
+        padding: 10px 0 80px;
+    }
+
+    .doctor-page-1 .right p {
+        max-width: initial;
+    }
+
+    .doctor-page-1 .right .address {
+        margin-bottom: 10px;
+    }
+
+    .doctor-page-4 .before-after-slider {
+        padding: 10px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-slide .before {
+        width: 50%;
+        order: 1;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-slide .after {
+        width: 50%;
+        order: 2;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-slide .text {
+        width: 100%;
+        order: 3;
+        margin-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-prev {
+        top: initial;
+        bottom: 10px;
+        left: 0;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-next {
+        top: initial;
+        bottom: 10px;
+        left: 30px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-dots {
+        top: initial;
+        bottom: 23px;
+        left: 66px;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .big-article {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .big-article img {
+        width: 100%;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .medium-article {
+        width: calc(50% - 10px);
+    }
+
+    .other-articles .other-articles-slider .slick-slide .medium-article .item {
+        margin-bottom: 10px;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .small-article {
+        width: calc(50% - 10px);
+    }
+
+    .reviews-page-1 .left {
+        width: 100%;
+    }
+
+    .reviews-page-1 .right {
+        display: none;
+    }
+
+    .rating .table {
+        overflow: scroll;
+    }
+
+    .rating .table > div {
+        width: 770px;
+    }
+
+    .rating .table .row .name {
+        width: 35%;
+    }
+
+    .rating .table .row .poultry {
+        width: 25%;
+    }
+
+    .rating .table .row .price {
+        width: 19.6%;
+    }
+
+    .rating .table .row .review {
+        width: 20.4%;
+    }
+
+    .old-version .img {
+        display: none;
+    }
+
+    .old-version .text {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .old-version .buttons {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .leave-feedback-1 .left {
+        width: 100%;
+    }
+
+    .leave-feedback-1 .right {
+        width: 100%;
+    }
+
+    .leave-feedback-2 {
+        margin-bottom: 35px;
+    }
+
+    .leave-feedback-2 p {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .leave-feedback-3 .btn {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .leave-feedback-3 label {
+        width: 100%;
+    }
+
+    .doctor-page-3 .list ul li {
+        width: 100%;
+    }
+
+    .page-article-1 {
+        padding: 30px 0;
+    }
+
+    .reviews-list {
+        margin-bottom: 40px;
+    }
+
+    .jq-selectbox.white .jq-selectbox__dropdown {
+        overflow: scroll;
+    }
+
+    .jq-selectbox.white .jq-selectbox__dropdown ul {
+        max-height: 280px !important;
+    }
+
+    .navigation span {
+        max-width: 170px;
+        white-space: nowrap;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .main {
+        position: relative;
+        background: linear-gradient(95.07deg, rgba(64, 86, 244, 0.1) 52.48%, rgba(53, 75, 139, 0.1) 100%), #191A1D;
+        min-height: 290px;
+    }
+
+    .main .text {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main .img {
+        height: 100%;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        right: -200px;
+        z-index: 1;
+    }
+
+    .questions-slider .slick-slide a {
+        padding: 20px 15px;
+    }
+
+    .footer-top .mailing {
+        width: 100%;
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+    .footer-top .mailing .input {
+        max-width: 300px;
+    }
+
+    .footer-top .lists-1 {
+        width: 100%;
+        order: 2;
+    }
+
+    .footer-top .lists-1 ul li {
+        padding-left: 0;
+    }
+
+    .footer-top .list-2 {
+        width: 100%;
+        order: 3;
+    }
+
+    .footer-top .list-2 ul li {
+        padding-left: 0;
+    }
+
+    .page-of-search .content .block {
+        padding: 30px 15px 0;
+        position: relative;
+    }
+
+    .page-of-search .content .block .left {
+        width: 100%;
+        border-right: none;
+        padding-bottom: 0;
+    }
+
+    .page-of-search .content .block .left img {
+        width: calc(100% + 30px);
+        margin: -31px 0 20px -15px;
+    }
+
+    .page-of-search .content .block .left .price {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .page-of-search .content .block .right {
+        width: 100%;
+    }
+
+    .page-of-search .content .block .right .top {
+        border-bottom: none;
+    }
+
+    .page-of-search .content .block .right .bottom {
+        position: relative;
+    }
+
+    .page-of-search .content .block .right .bottom .doctor {
+        width: 100%;
+    }
+
+    .page-of-search .content .block .right .bottom .contacts .phone {
+        display: none;
+    }
+
+    .page-of-search .content .block .right .bottom .contacts a {
+        display: none;
+    }
+
+    .page-of-search .content .block .right .bottom .contacts .address {
+        position: absolute;
+        left: 0;
+        top: -35px;
+    }
+
+    .form form .left {
+        width: 100%;
+    }
+
+    .form form .right {
+        width: 100%;
+    }
+
+    .blog-1 .left {
+        width: 100%;
+    }
+
+    .blog-1 .left h1 {
+        max-width: initial;
+    }
+
+    .blog-1 .right {
+        display: none;
+    }
+
+    .blog-2 .anchors, .blog-2 .tabs {
+        overflow: scroll;
+    }
+
+    .blog-2 .anchors ul, .blog-2 .tabs ul {
+        -webkit-flex-wrap: initial;
+        -moz-flex-wrap: initial;
+        -ms-flex-wrap: initial;
+        -o-flex-wrap: initial;
+        flex-wrap: initial;
+    }
+
+    .blog-2 .anchors ul {
+        width: max-content;
+    }
+
+    .blog-2 .anchors ul li a, .blog-2 .tabs ul li a {
+        width: max-content;
+    }
+
+    .blog-2 .list-of-articles .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog-2 .list-of-articles .item.big-item .text {
+        bottom: 25px;
+        left: 25px;
+    }
+
+    .blog-2 .list-of-articles .item.big-item .text h4 {
+        font-size: 1.2em;
+    }
+
+    .blog-3 .left .item {
+        width: calc(50% - 10px);
+    }
+
+    .blog-3 .right {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .blog-3 .right .item {
+        width: 50%;
+    }
+
+    .blog-3 .right .item + .item {
+        border-top: none;
+        border-left: none;
+    }
+
+    .blog-4 .right {
+        width: 100%;
+    }
+
+    .doctor-page-1 .left .about-doctor .date {
+        border-left: none;
+    }
+
+    .reviews-list .item {
+        padding: 20px;
+    }
+
+    .reviews-list .item .top .left {
+        max-width: 180px;
+    }
+
+    .reviews-list .item .top .left .section {
+        display: none;
+    }
+
+    .reviews-list .item .top .right {
+        display: none;
+    }
+
+    .page-of-review-2 .reviews-list .additionally {
+        padding: 30px 20px;
+    }
+
+    .reviews-list .item .assessment {
+        right: 0;
+        top: 20px;
+        border-radius: 50px 0px 0px 50px;
+        left: initial;
+    }
+
+    .reviews-list .item .comment {
+        position: initial;
+        bottom: initial;
+        left: initial;
+    }
+
+    .reviews-list .item .images {
+        -webkit-flex-wrap: initial;
+        -moz-flex-wrap: initial;
+        -ms-flex-wrap: initial;
+        -o-flex-wrap: initial;
+        flex-wrap: initial;
+        overflow: scroll;
+    }
+
+    .reviews-list .item .images a {
+        display: none;
+    }
+
+    .other-articles h2 {
+        margin-bottom: 0;
+    }
+
+    .other-articles .other-articles-slider {
+        padding-top: 50px;
+        margin-top: 30px;
+    }
+
+    .other-articles .other-articles-slider .slick-prev {
+        top: 0;
+    }
+
+    .other-articles .other-articles-slider .slick-next {
+        top: 0;
+    }
+
+    .other-articles .other-articles-slider .slick-dots {
+        top: 12px;
+    }
+
+    .page-clinic-1 .left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .page-clinic-1 .right {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+    }
+
+    .page-clinic-1 .right .clinic-slider .slick-prev {
+        left: 10px;
+        bottom: 50%;
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    .page-clinic-1 .right .clinic-slider .slick-next {
+        right: 10px;
+        bottom: 50%;
+        transform: translateY(-50%);
+        left: initial;
+    }
+
+    .page-clinic-1 .right .clinic-slider .slick-dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .effects {
+        padding: 20px 20px 12px;
+    }
+
+    .effects .title {
+        margin-bottom: 30px;
+        font-size: 1.38em;
+    }
+
+    .page-service-3 .list .item {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .page-service-2 img {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        display: block;
+        max-width: initial;
+    }
+
+    .page-article-2 .list .item {
+        width: calc(50% - 5px);
+        margin-bottom: 10px;
+    }
+
+    .effects .lists.three-list ul {
+        width: 50%;
+    }
+
+    .reviews-page-1 .left {
+        overflow: scroll;
+    }
+
+    .reviews-page-1 .left ul {
+        -webkit-flex-wrap: initial;
+        -moz-flex-wrap: initial;
+        -ms-flex-wrap: initial;
+        -o-flex-wrap: initial;
+        flex-wrap: initial;
+    }
+
+    .reviews-page-1 .left ul li {
+        margin-right: 20px;
+    }
+
+    .reviews-page-1 .left ul li a {
+        font-size: 1.14em;
+        font-family: Circe;
+        padding-bottom: 15px;
+        width: max-content;
+    }
+
+    .reviews-page-filters {
+        padding: 0 15px 18px;
+    }
+
+    .reviews-page-filters ul li {
+        margin-right: 8px;
+        padding: 3px 8px;
+        border: 1px solid rgba(47, 83, 225, 0.1);
+        border-radius: 50px;
+        margin-bottom: 8px;
+    }
+
+    .reviews-page-filters ul li:before,
+    .reviews-page-filters ul li:after {
+        display: none;
+    }
+
+    .questions-page-1 .right input {
+        width: 0;
+    }
+
+    .questions-page-1 .right.focused input {
+        width: 100%;
+    }
+
+    .list-of-questions .item {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .list-of-questions .item .top .theme {
+        display: none;
+    }
+
+    .blog-6 .list-of-news .item {
+        padding: 30px 20px;
+    }
+
+    .blog-6 .list-of-news .item .img {
+        display: none;
+    }
+
+    .blog-6 .list-of-news .item .text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .profile-2 .item .img {
+        width: 35px;
+        margin-bottom: 10px;
+    }
+
+    .profile-2 .item .img img {
+        width: 100%;
+    }
+
+    .profile-2 .item .text {
+        width: calc(100% - 35px);
+        padding: 5px 0 0 15px;
+    }
+
+    .page-of-review-2 .profile-2 .item.comment-1 {
+        padding-left: 30px;
+    }
+
+    .page-of-review-2 .profile-2 .item.comment-2 {
+        padding-left: 60px;
+    }
+
+    .page-of-question-1 .item .comment {
+        padding: 15px;
+    }
+
+    .questions-slider {
+        padding: 19px 0;
+    }
+
+    .news .news-slider img {
+        display: none;
+    }
+
+    .news .news-slider .text a {
+        min-height: initial;
+    }
+
+    .algolia-autocomplete .aa-dropdown-menu {
+        margin-left: 0 !important;
+        padding-top: 39px !important;
+        margin-top: -31px !important;
+        width: 100% !important;
+    }
+
+    .page-of-search .content .top-block .right .jq-selectbox.black .jq-selectbox__select .jq-selectbox__select-text {
+        font-size: 13.91px;
+    }
+
+    .page-of-search .content .item .right > p {
+        display: none;
+    }
+
+    .page-of-search .content .item .left .info {
+        border-bottom: 1px solid #EAEEFE;
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+    }
+
+    .page-of-search .content .item .right .bottom .clinic {
+        margin-bottom: 5px;
+    }
+
+    .page-of-search .content .item .right .bottom .clinic p {
+        display: none;
+    }
+
+    .page-of-search .content .item .right .bottom .clinic .name {
+        margin-bottom: 0;
+    }
+
+    .reviews-page {
+        margin-bottom: 100px;
+    }
+
+    .list-of-reviews .item {
+        width: 100%;
+    }
+
+    .list-of-reviews .item .text {
+        width: 100%;
+    }
+
+    .list-of-reviews .item .text h3 {
+        margin: 0 auto 10px;
+    }
+
+    .doctor-page-5 .bottom .btn {
+        margin: 10px 0;
+    }
+    .work-results-service-item {
+        padding: 0 0 15px;
+    }
+    .work-results-service-item-images {
+        padding-left: 0;
+        width: 100%;
+    }
+    .work-results-service-item-text {
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .work-results-service-item-review {
+        padding: 25px 15px 20px;
+    }
+    .work-results-doctor .doctor-page-1 .left .about-doctor {
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .questions-slider .slick-track {
+        margin-left: 0;
+    }
+
+    .questions-slider .slick-slide {
+        text-align: center;
+    }
+
+    .questions-slider .slick-slide a .img {
+        display: none;
+    }
+
+    .questions-slider .slick-slide a .text p {
+        margin: 0 auto;
+    }
+
+    .search-doctor .list-of-doctors .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-our-rating .list-of-items .item {
+        width: 100%;
+        padding: 0;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+    }
+
+    .about-our-rating .list-of-items .item img {
+        width: 36px;
+    }
+
+    .about-our-rating .list-of-items .item .text {
+        width: calc(100% - 36px);
+        padding-left: 22px;
+    }
+
+    .reviews-slider .slick-slide .slider-text {
+        bottom: 40px;
+    }
+
+    .reviews-slider .slick-slide .slider-text h1 {
+        margin-bottom: 0;
+    }
+
+    .reviews-slider .slick-slide .slider-text p {
+        display: none;
+    }
+
+    .reviews-slider .slick-prev {
+        top: 28px;
+    }
+
+    .reviews-slider .slick-next {
+        top: 28px;
+    }
+
+    .reviews-slider .slick-dots {
+        top: 40px;
+        left: initial;
+        right: 10px;
+    }
+
+    .page-of-search .content .top-block .right span {
+        display: none;
+    }
+
+    .page-of-search .content .item .right .bottom .clinic {
+        width: 100%;
+    }
+
+    .page-of-search .content .item .right .bottom .contacts {
+        width: 100%;
+    }
+
+    .page-of-search .content .item .right .bottom .contacts .phone {
+        display: none;
+    }
+
+    .page-of-search .content .item .right .bottom .contacts .address {
+        font-size: 1em;
+        font-family: Circe-Light;
+    }
+
+    .page-of-search .content .item .right .bottom .contacts a {
+        display: none;
+    }
+
+    .page-of-search {
+        margin-bottom: 50px;
+    }
+
+    .doctor-page-1 .right .phone {
+        display: none;
+    }
+
+    .doctor-page-1 .left .about-doctor {
+        position: relative;
+    }
+
+    .doctor-page-1 .left .about-doctor .text {
+        width: calc(100% - 106px);
+        padding-left: 20px;
+    }
+
+    .doctor-page-1 .left .about-doctor .text h1 {
+        font-size: 1.54em;
+        max-width: 300px;
+    }
+
+    .doctor-page-1 .left .about-doctor .text p {
+        display: none;
+    }
+
+    .doctor-page-1 .left .about-doctor .date {
+        width: 100%;
+        padding-left: 126px;
+        margin-top: -40px;
+    }
+
+    .doctor-page-1 .left .about-doctor .date .top p {
+        margin: 0 8px 0 0;
+    }
+
+    .doctor-page-1 .left .about-doctor .date span {
+        position: absolute;
+        bottom: -20px;
+        left: 37px;
+    }
+
+    .doctor-page-4 .before-after-slider {
+        padding: 0;
+        width: calc(100% + 30px);
+        margin-left: -15px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-slide .text {
+        padding: 0 20px 45px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-prev {
+        left: 10px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-next {
+        left: 40px;
+    }
+
+    .doctor-page-4 .before-after-slider .slick-dots {
+        left: 76px;
+    }
+
+    .reviews-list .item .title {
+        max-width: 180px;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .big-article .text {
+        left: 20px;
+        bottom: 24px;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .medium-article {
+        width: 100%;
+    }
+
+    .other-articles .other-articles-slider .slick-slide .small-article {
+        width: 100%;
+    }
+
+    .effects .lists ul {
+        width: 100%;
+    }
+
+    .page-service-3 .list .item {
+        width: 100%;
+    }
+
+    .page-article-2 .list .item {
+        width: 100%;
+        padding: 15px 0 15px 10px;
+    }
+
+    .effects .lists.three-list ul {
+        width: 100%;
+    }
+
+    .h1, h1 {
+        font-family: Circe-Bold;
+        font-size: 1.85em;
+    }
+
+    .left .page-of-review-1 h1 {
+        font-family: Circe-Bold;
+        font-size: 1.6em;
+    }
+
+    .h2, h2 {
+        font-family: Circe-Bold;
+        font-size: 1.7em;
+    }
+
+    .h3, h3 {
+        font-family: Circe-Bold;
+        font-size: 1.6em;
+    }
+
+    .h4, h4 {
+        font-family: Circe-Bold;
+        font-size: 1.5em;
+    }
+
+    .reviews-page-filters ul li {
+        width: initial;
+        height: initial;
+    }
+
+    .blog-2 .list-of-articles .item .text p {
+        max-height: 40px;
+        overflow: hidden;
+    }
+
+    .page-of-review-1 .bottom .item {
+        width: 100%;
+    }
+
+    .page-of-review-1 .bottom .item + .item {
+        border-left: none;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .page-of-question .page-of-review-1 .bottom {
+        padding: 0 0 10px 0;
+        margin-bottom: 0;
+    }
+
+    .page-of-question .page-of-review-1 .bottom .item {
+        width: initial;
+        margin-bottom: 10px;
+    }
+
+    .page-of-question .page-of-review-1 .bottom .item + .item {
+        padding-left: 0;
+        border-left: none;
+        padding-top: 0;
+    }
+
+    .list-of-doctors-on-main-slider .item {
+        padding: 20px 15px 10px;
+    }
+
+    .list-of-doctors-on-main-slider .item .top .text {
+        max-width: initial;
+    }
+
+    .request-verification .tabs {
+        overflow: scroll;
+    }
+
+    .request-verification .tabs ul li a {
+        width: max-content;
+    }
+
+    .reviews-page-1 .bottom .jq-selectbox {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .reviews-page-1 .bottom {
+        padding: 30px 0 15px;
+    }
+
+    .footer-bottom .logo {
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom p {
+        width: 100%;
+        padding-left: 0;
+        margin: 0;
+        border-left: none;
+        max-width: initial;
+    }
+
+    .mfp-content {
+        width: calc(100% - 20px) !important;
+    }
+
+    .mfp-content .popup {
+        padding: 20px;
+    }
+
+    .mfp-content p.with-line:before {
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+    .work-results-main-list-item {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .with-header-banner .header-pic-block {
+        height: 58px;
+    }
+
+    #middle.with-header-banner {
+        margin-top: 103px;
+    }
+
+    header .inner {
+        height: 45px;
+    }
+
+    .reviews-slider .slick-slide .slider-text {
+        bottom: 20px;
+    }
+
+    .reviews-slider .slick-slide .slider-text .who {
+        margin-bottom: 10px;
+    }
+
+    .reviews-slider .slick-slide .slider-text h1 {
+        font-size: 1.54em;
+    }
+
+    .news .news-slider .slick-dots {
+        bottom: -30px;
+        top: initial;
+    }
+
+    .news .news-slider .slick-prev {
+        bottom: -43px;
+        top: initial;
+    }
+
+    .news .news-slider .slick-next {
+        bottom: -43px;
+        top: initial;
+    }
+
+    .request-verification .bottom .selects {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .request-verification .bottom .selects .jq-selectbox {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .page-of-search .content .item {
+        padding: 20px 15px;
+    }
+
+    .form form .left .selects .jq-selectbox {
+        width: 100%;
+    }
+
+    .form form .left .selects .jq-selectbox + .jq-selectbox {
+        margin-top: 20px;
+    }
+
+    .blog-3 .left .item {
+        width: 100%;
+    }
+
+    .blog-4 .right .slick-slide {
+        padding: 120px 10px 20px 15px;
+    }
+
+    .blog-4 .right .slick-prev {
+        left: 7px;
+    }
+
+    .blog-4 .right .slick-next {
+        left: 37px;
+    }
+
+    .blog-4 .right .slick-dots {
+        left: 79px;
+    }
+
+    .blog-5 .list-of-items .item {
+        width: 100%;
+    }
+
+    .doctor-page-1 .left .about-doctor .img {
+        width: 70px;
+    }
+
+    .doctor-page-1 .left .about-doctor .text {
+        width: calc(100% - 70px);
+    }
+
+    .doctor-page-1 .left .about-doctor .date {
+        margin-top: 0;
+        padding-left: 90px;
+    }
+
+    .doctor-page-1 .left .about-doctor .date span {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .page-clinic-1 .left .about-clinic .logo {
+        padding: 11px 7px 10px 11px;
+        width: 70px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .page-clinic-1 .left .about-clinic > div:not(.logo) {
+        width: 100%;
+    }
+
+    .page-clinic-1 .left .about-clinic .title {
+        font-size: 1.14em;
+    }
+
+    .page-of-review-2 .profile-2 .item.comment-1 {
+        padding-left: 20px;
+    }
+
+    .page-of-review-2 .profile-2 .item.comment-2 {
+        padding-left: 40px;
+    }
+
+    .page-clinic-3 {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .page-clinic-3 .list-of-doctors {
+        margin-bottom: 15px;
+    }
+
+    .page-clinic-3 .list-of-doctors .item {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 340px) {
+    .with-header-banner .header-pic-block {
+        height: 53px;
+    }
+
+    #middle.with-header-banner {
+        margin-top: 94px;
+    }
+
+    header .inner {
+        height: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

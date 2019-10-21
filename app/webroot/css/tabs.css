@@ -1,0 +1,78 @@
+.center {
+width:60%;
+margin:20px auto 0 auto;
+}
+
+.marginbot {
+margin-bottom:15px;
+}
+
+ul.list li {
+list-style-type:none;
+margin-left:20px;
+}
+
+ul.tabs {
+width:100%;
+}
+
+ul.tabs li {
+list-style-type:none;
+display:block;
+float:left;
+margin-right:2px;
+margin-bottom: -1px;
+}
+
+.sidebar-right ul.tabs li:hover {
+background: none;
+}
+
+ul.tabs li:hover {
+background-color: #eee;
+}
+
+.tabscontent {
+padding:8px 0 0 0;
+display:none;
+width:100%;
+text-align:justify;
+}
+
+.mainbar .tabs {
+margin: 10px 0 0px 0px;
+border-bottom: 1px solid #ddd;
+}
+
+ul.tabs li a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+/*	margin-right: 2px;*/
+	line-height: 1.428571429;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	text-decoration: none;
+}
+
+ul.tabs li.current a {
+	color: #999;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+
+ul.tabs li.current {
+box-shadow: 0 10px 0 #fff, 0 0 10px #ccc;
+}
+
+ul.tabs.blockshadow li a {border-radius:0;border:none;margin:0}
+ul.tabs.blockshadow li.current a {border-radius:0;border:none;background: #405162;color: #fff;}
+ul.tabs.blockshadow li {margin:0}
+ul.tabs.blockshadow li a:hover {
+background: #405162;color: #fff;
+}
+ul.tabs.blockshadow li.current {
+box-shadow: none;
+}

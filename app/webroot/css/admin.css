@@ -1,0 +1,291 @@
+body {font-size: 14pt; font-family: Tahoma, Verdana, Arial;}
+
+a img {border:0;}
+
+.framed,
+.framed .f_r,
+.framed .f_b,
+.framed .f_l,
+.framed .f_c
+{
+float: none;
+position: relative; z-index: 1;
+width: auto; height: auto;
+margin: 0; padding: 0;
+}
+.framed .f_tt,
+.framed .f_rr,
+.framed .f_bb,
+.framed .f_ll
+{
+display: none;
+}
+.framed
+{
+margin: 0 30px 15px 0;
+background: url('/img/shadow/hint-t.png') no-repeat left top;
+//background: none;
+width:auto;
+}
+.framed .f_r
+{
+left: 30px;
+background: url('/img/shadow/hint-r.png') no-repeat right top;
+//background: none;
+}
+.framed .f_b
+{
+top: 30px;
+background: url('/img/shadow/hint-b.png') no-repeat right bottom;
+//background: none;
+}
+.framed .f_c
+{
+float: none;
+position: relative;
+left: 30px; top: -15px;
+padding: 1px 0; margin: 0 30px 0 0;
+background: #ffffff;
+}
+.framed .f_l
+{
+left: -30px;
+padding: 15px 0;
+background: url('/img/shadow/hint-l.png') no-repeat left bottom;
+//background: none;
+}
+* html .framed .f_r,
+* html .framed .f_b,
+* html .framed .f_l
+{ height: 0; }
+* html .framed .f_tt,
+* html .framed .f_rr,
+* html .framed .f_bb,
+* html .framed .f_bb *,
+* html .framed .f_ll,
+* html .framed .f_ll *
+{
+display: block;
+position: absolute;
+left: 0; top: 0;
+}
+* html .framed .f_tt
+{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-t.png,sizingMethod=crop);
+}
+* html .framed .f_rr
+{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-r.png,sizingMethod=crop);
+}
+* html .framed .f_tt,
+* html .framed .f_bb
+{
+width: expression( parentNode.offsetWidth ); height: 30px;
+}
+* html .framed .f_rr,
+* html .framed .f_ll
+{
+width: 30px; height: expression( parentNode.offsetHeight );
+}
+* html .framed .f_bb,
+* html .framed .f_ll
+{
+overflow: hidden;
+}
+* html .framed .f_bb *
+{
+width: 3000px; height: 30px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-b.png,sizingMethod=crop);
+}
+* html .framed .f_ll *
+{
+width: 30px; height: 3000px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-l.png,sizingMethod=crop);
+}
+/* Исправляем неправильный расчет позиции при "нечетной ширине" */
+* html .framed .f_rr,
+* html .framed .f_bb *
+{ right: expression( this.parentNode.offsetWidth % 2 ? -1 : 0 ); left: auto; }
+* html .framed .f_ll,
+* html .framed .f_ll *,
+* html .framed .f_bb,
+* html .framed .f_bb *
+{ bottom: expression( this.parentNode.offsetHeight % 2 ? -1 : 0 ); top: auto; }
+
+
+.field {
+	width:100%; 
+	border: 1px solid gray;
+	font-size:14pt;
+	padding:5px;
+}
+
+h1, h2, .orange {
+	margin-top:0;
+	color: #FF6600;
+	text-align:center;
+}
+
+h1 img {
+	vertical-align: middle;
+	margin: 0 10px 2px 0;	
+}
+
+.blue {
+	color: #0E5AAA;
+}
+
+.green {
+	color: #009D0B;
+}
+
+table.menu {
+	font-size:12pt;
+}
+
+table.submenu {
+	font-size:12pt;
+	margin-bottom:13px;
+}
+
+	table.submenu td {
+		color: #009D0B;
+		padding: 10px 20px;
+	}
+
+		table.submenu td.selected {
+			border: 1px solid gray;
+		}
+
+table.submenu td a {
+	color: #009D0B;
+}
+
+a {
+	color: #0E5AAA;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#authMessage {color:#C90000}
+
+form .form-error {
+	border: 1px solid #C90000;
+}
+
+td.error, div.error {
+	color:#C90000;
+	text-align:left;
+}
+
+td.ok, div.ok {
+	color:green;
+	text-align:center;
+}
+
+div.flags {
+	float:right;
+}
+
+div.flags img {
+	border:0;
+}
+
+div.flags a:hover{
+	text-decoration: none;
+}
+
+table.payment img {
+	vertical-align:middle;
+}
+
+div.auth {
+	float:right;
+	font-size:10pt;
+}
+
+table.list {
+	
+}
+
+	table.list thead td{
+		font-weight:bold;
+		font-size:10pt;
+		background-color:#C9C9C9;
+	}
+	
+	table.list tbody td{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	table.list tr.first, table.list tr:nth-child(even){
+		background-color:#DCDCDC;
+	}
+	
+table.search {
+	
+}
+
+table.search select {
+	width: 100%;
+}
+
+table.search textarea {
+	width: 100%;
+	height: 90%;
+}
+
+table.classic thead {
+	font-weight:bold;
+	font-size:10pt;
+	background-color:#C9C9C9;
+}
+
+table.classic thead td {
+	padding:5px;
+}
+
+table.classic tbody tr:nth-child(even) {
+	background: #DCDCDC;
+}
+
+textarea {
+	border: 1px solid black;
+	background: #F5F5F5;
+}
+
+.NB {
+	font-size:12px;
+	color: gray;
+}
+
+div.editor_switcher {
+	font-size:12pt;
+	margin:5px 5px 10px;
+}
+
+div.editor_switcher a {
+	text-decoration:none;
+	border-bottom: 1px dashed;
+}
+
+div.editor_switcher a.selected {
+	padding:3px;
+	background-color: #CCC;
+	color: black;
+	cursor:default;
+	border-bottom: none !important;
+}
+
+div.editor_switcher a.selected {
+	
+}
+
+a.dashed {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}

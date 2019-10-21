@@ -1,0 +1,26 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-server-57
+    command: --default-authentication-plugin=mysql_native_password
+    #        working_dir: /application
+    volumes:
+      - .:/application
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=lanselot
+      - MYSQL_DATABASE=topestet
+      - MYSQL_USER=topestet
+      - MYSQL_PASSWORD=lanselot
+    ports:
+      - "8082:3306"
+  website:
+    container_name: topestet
+    image: t2:topestet
+    build:
+      context: ./
+    volumes:
+      - d:/projects/topestet/web:/var/www/html
+    ports:
+      - 8888:80

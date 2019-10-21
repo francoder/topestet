@@ -1,0 +1,109 @@
+.framed,
+.framed .f_r,
+.framed .f_b,
+.framed .f_l,
+.framed .f_c
+{
+float: none;
+position: relative; z-index: 1;
+width: auto; height: auto;
+margin: 0; padding: 0;
+}
+.framed .f_tt,
+.framed .f_rr,
+.framed .f_bb,
+.framed .f_ll
+{
+display: none;
+}
+.framed
+{
+margin: 0 30px 15px 0;
+background: url('/img/shadow/hint-t.png') no-repeat left top;
+//background: none;
+width:auto;
+}
+.framed .f_r
+{
+left: 30px;
+background: url('/img/shadow/hint-r.png') no-repeat right top;
+//background: none;
+}
+.framed .f_b
+{
+top: 30px;
+background: url('/img/shadow/hint-b.png') no-repeat right bottom;
+//background: none;
+}
+.framed .f_c
+{
+float: none;
+position: relative;
+left: 30px; top: -15px;
+padding: 1px 0; margin: 0 30px 0 0;
+background: #ffffff;
+}
+.framed .f_l
+{
+left: -30px;
+padding: 15px 0;
+background: url('/img/shadow/hint-l.png') no-repeat left bottom;
+//background: none;
+}
+* html .framed .f_r,
+* html .framed .f_b,
+* html .framed .f_l
+{ height: 0; }
+* html .framed .f_tt,
+* html .framed .f_rr,
+* html .framed .f_bb,
+* html .framed .f_bb *,
+* html .framed .f_ll,
+* html .framed .f_ll *
+{
+display: block;
+position: absolute;
+left: 0; top: 0;
+}
+* html .framed .f_tt
+{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-t.png,sizingMethod=crop);
+}
+* html .framed .f_rr
+{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-r.png,sizingMethod=crop);
+}
+* html .framed .f_tt,
+* html .framed .f_bb
+{
+width: expression( parentNode.offsetWidth ); height: 30px;
+}
+* html .framed .f_rr,
+* html .framed .f_ll
+{
+width: 30px; height: expression( parentNode.offsetHeight );
+}
+* html .framed .f_bb,
+* html .framed .f_ll
+{
+overflow: hidden;
+}
+* html .framed .f_bb *
+{
+width: 3000px; height: 30px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-b.png,sizingMethod=crop);
+}
+* html .framed .f_ll *
+{
+width: 30px; height: 3000px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hint-l.png,sizingMethod=crop);
+}
+/* Исправляем неправильный расчет позиции при "нечетной ширине" */
+* html .framed .f_rr,
+* html .framed .f_bb *
+{ right: expression( this.parentNode.offsetWidth % 2 ? -1 : 0 ); left: auto; }
+* html .framed .f_ll,
+* html .framed .f_ll *,
+* html .framed .f_bb,
+* html .framed .f_bb *
+{ bottom: expression( this.parentNode.offsetHeight % 2 ? -1 : 0 ); top: auto; }

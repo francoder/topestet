@@ -1,0 +1,106 @@
+/*Sidebar tabs*/
+.sidebar-right .active-spec .wrapper.tabbox, .sidebar-right.main .wrapper.tabbox {box-shadow:none;border:none;}
+.center {
+width:60%;
+margin:20px auto 0 auto;
+}
+.sidebar-right .active-spec .wrapper.tabbox .contents,
+.sidebar-right.main .wrapper.tabbox .contents {margin-bottom: 0.8em;}
+
+.marginbot {
+margin:0 17px 22px;
+}
+
+.tabitem {margin:0 0 1.1em;border-bottom: 1px solid #e5e5e5;padding:0 1em 0;}
+.bestspec .tabitem:last-child {border-bottom:none;margin:0;}
+ul.list li {
+list-style-type:none;
+margin-left:20px;
+}
+
+ul.tabs {
+width:100%;
+}
+
+.sidebar-right ul.tabs li.current {
+box-shadow: 0 10px 0 #fff, 0 0 10px #ccc;
+}
+
+.sidebar-right.main ul.tabs li,
+.sidebar-right .active-spec ul.tabs li {
+list-style-type:none;
+display:block;
+float:left;
+width:50%;
+margin-right:0px;
+margin-bottom: -1px;
+}
+
+.sidebar-right .active-spec .tabscontent {
+text-align:left;}
+.sidebar-right.main .tabscontent,
+.sidebar-right .active-spec .tabscontent {
+padding:0;
+display:none;
+width:100%;
+}
+.tabscontent p {padding-top:1em;//color:#667585;
+}
+.tabscontent .more {text-align: center;  display: block;}
+.sidebar-right .active-spec .clear.tabtopshadow,
+.sidebar-right.main .clear.tabtopshadow {padding-top:1px;}
+.tabshadow {box-shadow: 0px 0px 10px 0px #ccc;
+  padding: 1em 0;}
+.mainbar .tabs {
+margin: 10px 0 0px 0px;
+//border-bottom: 1px solid #ddd;
+}
+
+.sidebar-right.main .wrapper.tabbox,
+.sidebar-right .active-spec .wrapper.tabbox{
+	padding:0;
+}
+
+.sidebar-right.main ul.tabs li a,
+.sidebar-right .active-spec ul.tabs li a{
+	font-size:12px;
+	color: #3b5998;
+	position: relative;
+	display: block;
+	padding: 10px 0px 10px;
+	line-height: 1.428571429;
+	border: 0px;
+	//border-bottom: 1px solid #ccc;
+	//background:#fff;
+	text-decoration: none;
+	text-align:center;
+	border-radius:0;
+	margin-right:0;
+	
+}
+.sidebar-right.main ul.tabs li a span,
+.sidebar-right .active-spec ul.tabs li a span,
+.sidebar-right.main ul.tabs li a span{border-bottom: 1px dashed #3b5998;}
+.sidebar-right .active-spec ul.tabs li.current a span,
+.sidebar-right.main ul.tabs li.current a span{border-bottom:none;}
+.sidebar-right.main ul.tabs .clear {padding:0;}
+.sidebar-right.main ul.tabs li.current a ,
+.sidebar-right .active-spec ul.tabs li.current a{
+	border: 0px;
+	font-size:12px;
+	color: #000;
+	border-bottom: 1px solid #eee;
+	//border-bottom-color: transparent;
+	cursor: default;
+	background: #fff;
+	//border-bottom:none;
+	text-decoration:none;
+}
+.sidebar-right.main ul.tabs li.current {
+box-shadow: 0 10px 0 #fff, 0 0 10px #ccc;
+}
+.sidebar-right.main ul.tabs li.current:last-of-type a,
+.sidebar-right .active-spec ul.tabs li.current:last-of-type a{
+	//border-left: 1px solid #ccc;
+	border-right:none;
+}

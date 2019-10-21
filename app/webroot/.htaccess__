@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+</IfModule>
+
+php_value  memory_limit 50M
+php_value  session.save_path  /var/www/topestet/data/www/topestet.ru/sessions
+php_value  session.gc_maxlifetime  7200

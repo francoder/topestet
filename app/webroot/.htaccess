@@ -1,0 +1,18 @@
+#Закрытие индексации
+SetEnvIfNoCase User-Agent "^contentkingapp" bad_bot
+SetEnvIfNoCase User-Agent "^SemrushBot" bad_bot
+SetEnvIfNoCase User-Agent "^http://www.semrush.com/bot.html" bad_bot
+
+<FilesMatch "^.*$">
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^fz/([^/]*)$ "fz/index.php" [QSA,L]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>

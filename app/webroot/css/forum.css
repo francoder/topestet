@@ -1,0 +1,46 @@
+.fquestion {
+    border-bottom: 1px solid #E5E5E5;
+}
+.fanswer{
+    border-top: 1px solid #E5E5E5;
+    position: relative;
+    padding: 0 0 50px;
+    margin:  0 0 25px;
+    min-height: 62px;
+}
+.fanswer p{margin-left:60px}
+.fanswer .author{
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    direction: rtl;
+}
+.fanswer .author span{color: #666666}
+.fanswer .author .avatar{margin: 0 0 0 20px}
+.fdate {
+color: #666;
+font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.fedit { 
+    color:red; 
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.fedit a {
+    color:red; 
+}
+.fanswers{
+    margin-top: 11px;
+}
+
+.mytextarea { 
+    width:  600px; 
+    height: 80px; 
+    color:  #00008B;
+    background-color: #ADD8E6;
+    border: 1px solid #00008B;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
