@@ -77,7 +77,7 @@ ob_clean();
         }
         ?>
         <br>
-        <div class="g-recaptcha" data-sitekey="6LcJD68UAAAAAOo19sQKzFLmU_b-i54H3zkBdzqO"></div>
+        <div class="g-recaptcha" data-sitekey="secret_key"></div>
         <br>
         <div class="leave-feedback-3">
             <button type="submit" class="btn dark-blue">Оставить отзыв</button>
